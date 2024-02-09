@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+
+        <div class="container">
+            <header>
+                
+            </header>     
+            <div class="searchInput">
+                <h1 id="headlabel">Welcome to Calculator</h1>
+                <input type="text" id="inputBox" value="0" dir="rtl" >
+            </div>
+            <div class="columns">
+                <div class="row1">
+                    <button type="button" id="ac" onclick="clearDisplay()">C</button>
+                    <button type="button" id="arrow" onclick="clearLastCharacter()">&LeftArrow;</button>
+                    <button type="button" id="percent" onclick="appendToinputBox('%')">&percnt;</button>
+                    <button type="button" id="divid" onclick="appendToinputBox('/')">&divide;</button>
+                </div>
+                <div class="row2">
+                    <button type="button" id="seven" onclick="appendToinputBox('7')">7</button>
+                    <button type="button" id="eight" onclick="appendToinputBox('8')">8</button>
+                    <button type="button" id="nine" onclick="appendToinputBox('9')">9</button>
+                    <button type="button" id="multiply" onclick="appendToinputBox('*')">x</button>
+                </div>
+                <div class="row3">
+                    <button type="button" id="four" onclick="appendToinputBox('4')">4</button>
+                    <button type="button" id="five" onclick="appendToinputBox('5')">5</button>
+                    <button type="button" id="six" onclick="appendToinputBox('6')">6</button>
+                    <button type="button" id="subtract" onclick="appendToinputBox('-')">-</button>
+                </div>
+                <div class="row4">
+                    <button type="button" id="one" onclick="appendToinputBox('1')">1</button>
+                    <button type="button" id="two" onclick="appendToinputBox('2')">2</button>
+                    <button type="button" id="three" onclick="appendToinputBox('3')">3</button>
+                    <button type="button" id="addition" onclick="appendToinputBox('+')">+</button>
+                </div>
+                <div class="row5">
+                    <button type="button" id="zero" onclick="appendToinputBox('0')">0</button>
+                    <button type="button" id="twozero" onclick="appendToinputBox('00')">00</button>
+                    <button type="button" id="dot" onclick="appendToinputBox('.')">.</button>
+                    <button type="button" id="equal" onclick="calculateResult()">=</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

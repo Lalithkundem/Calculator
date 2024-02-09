@@ -1,0 +1,88 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    width: 250px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+.searchInput{
+    color: white;
+    h1{
+        color: black;
+        background-color: white;
+        text-align: center;
+        font-size: larger;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+}
+.searchInput input{
+    border: none;
+    cursor: pointer;
+    width: 95%;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+.searchInput input:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.columns{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(86, 85, 85);
+    border: none;
+    box-shadow: 0 4px #fff;
+}
+.row1{
+    display: block;
+    
+}
+#ac,#arrow,#percent{
+    background-color: rgb(171, 170, 170);
+}
+
+#divid,#multiply,#subtract,#addition,#equal{
+    background-color: orange;
+}
+.row1 button{
+    margin-right: 5px;
+}
+.row2{
+    display: block;
+}
+.row2 button{
+    margin-right: 10px;
+}
+.row3 button{
+    margin-right: 10px;
+}
+.row4 button{
+    margin-right: 10px;
+}
+.row5 button{
+    margin-right: 8px;
+}
+.row5{
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: rgb(228, 224, 224);
+    color: black;
+}
